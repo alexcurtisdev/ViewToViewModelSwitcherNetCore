@@ -4,7 +4,7 @@ Easily toggle between a View and a ViewModel, particularly useful for WPF MVVM p
 
 ### Shortcuts
 - 'Ctrl + Shift + Alt, V'
-- 'Ctrl + Shift Alt, M'
+- 'Ctrl + Shift + Alt, M'
 
 ### Placements
 Accessible under the 'View' dropdown in the top navigation and within the context menu when right-clicking a C# or XAML file.

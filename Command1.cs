@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.Extensibility.Shell;
 using Microsoft.VisualStudio.ProjectSystem.Query;
 using System.Diagnostics;
 
-namespace ViewToViewModelSwitcherNetCore
+namespace ViewToViewModelSwitcher
 {
     [VisualStudioContribution]
     internal class Command1 : Command
@@ -16,7 +16,7 @@ namespace ViewToViewModelSwitcherNetCore
             this.logger = Requires.NotNull(traceSource, nameof(traceSource));
         }
 
-        public override CommandConfiguration CommandConfiguration => new("%ViewToViewModelSwitcherNetCore.Command1.DisplayName%")
+        public override CommandConfiguration CommandConfiguration => new("%ViewToViewModelSwitcher.Command1.DisplayName%")
         {
             Icon = new(ImageMoniker.KnownValues.ToggleStackView, IconSettings.IconAndText),
             Placements = [

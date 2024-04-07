@@ -1,7 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.Extensibility;
+using System.Runtime.ConstrainedExecution;
 
-namespace ViewToViewModelSwitcherNetCore
+namespace ViewToViewModelSwitcher
 {
     [VisualStudioContribution]
     internal class ExtensionEntrypoint : Extension
@@ -9,7 +10,7 @@ namespace ViewToViewModelSwitcherNetCore
         public override ExtensionConfiguration ExtensionConfiguration => new()
         {
             Metadata = new(
-                    id: "ViewToViewModelSwitcherNetCore.fdb8f460-25f1-4164-85b2-f81e0a5cbb86",
+                    id: "ViewToViewModelSwitcher.fb2787f7-8b89-4cee-9e76-02ff6486f4f5",
                     version: this.ExtensionAssemblyVersion,
                     publisherName: "Alex Curtis",
                     displayName: "MVVM View To View Model Switcher",

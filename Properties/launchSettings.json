@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ViewToViewModelSwitcherNetCore": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
